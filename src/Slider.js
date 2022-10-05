@@ -1,10 +1,10 @@
-import sliderCard from "./sliderCard";
+import SliderCard from "./SliderCard";
 
 const Slider = () => {
     return (
         <div className="slider">
-            <sliderCard />
-            <img src="img/banner.png" alt="banner1" className="slider-img" />
+            <SliderCard />
+            <img src={require("./img/banner.png")} alt="banner1" className="slider-img" />
         </div>    
     );
 }

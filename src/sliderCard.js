@@ -1,4 +1,4 @@
-const sliderCard = () => {
+const SliderCard = () => {
     return (
         <div className="slider-card">
             <h1>Taste the Talk of the Street</h1>
@@ -7,4 +7,4 @@ const sliderCard = () => {
     );
 }
  
-export default sliderCard;
+export default SliderCard;
