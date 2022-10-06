@@ -168,3 +168,43 @@ nav p {
 	font-size: 1.4rem;
 	width: 70%;
 }
+
+.signup {
+	background-color: rgb(212, 132, 46);
+	color: white;
+	padding: 30px;
+}
+
+.signup h1 {
+	color: rgb(130, 47, 24);
+	font-size: 2.6rem;
+}
+
+.signup-small {
+	font-size: 1.6rem;
+}
+
+.signup h3 {
+	margin: 2rem 0;
+}
+
+.signup input {
+	background-color: rgb(212, 132, 46);
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 2px solid rgb(74, 26, 13);
+	color: white;
+	font-size: 1.2rem;
+	margin-right: 1.6rem;
+	padding: 0.2rem;
+	width: 35%;
+}
+
+.signup button {
+	background-color: rgb(130, 47, 24);
+	border: none;
+	border-radius: 5px;
+	color: white;
+	padding: 0.4rem 1rem;
+}
