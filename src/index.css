@@ -66,8 +66,14 @@ nav {
 
 /* Custom CSS */
 
+html {
+	color: rgb(37, 37, 37);
+}
+
 header {
 	align-items: center;
+	background-color: #b94848;
+	color: white;
 	display: flex;
   	height: 70px;
 	justify-content: space-between;
@@ -75,14 +81,20 @@ header {
 
 header h1 {
   font-size: 2.5rem;
+  margin: 2rem;
+}
+
+nav p {
+	font-size: 1.4rem;
+	margin: 0 2rem 0 2rem;
 }
 
 .hero {
 	background-color: black;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	/* Make sure it never exceeds the viewport width */
-	width: 100vw;
+	/* Using % instead of vw stops unnecessary horizontal overflow*/
+	width: 100%;
 }
 
 .hero-card {
@@ -104,8 +116,8 @@ header h1 {
 	background-color: rgb(212, 132, 46);
 	border-radius: 2px;
 	color: white;
-	font-size: 2rem;
-	padding: 7px 14px;
+	font-size: 1.6rem;
+	padding: 10px 20px;
 }
 
 .hero .img-container {
@@ -119,7 +131,7 @@ header h1 {
 
 .about {
 	display: flex;
-	width: 100vw;
+	width: 100%;
 }
 
 .about div {
@@ -136,6 +148,7 @@ header h1 {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	width: 90%;
 }
 
 .info-card * {
