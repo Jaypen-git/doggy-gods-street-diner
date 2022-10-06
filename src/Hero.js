@@ -2,10 +2,10 @@ import HeroCard from "./HeroCard";
 
 const Hero = () => {
     return (
-        <div className="slider">
+        <div className="hero">
             <HeroCard />
             <div className="img-container">
-                <img src={require("./img/banner.png")} alt="banner1" className="slider-img" />
+                <img src={require("./img/banner.png")} alt="banner1" className="hero-img" />
             </div>
         </div>    
     );

@@ -67,14 +67,17 @@ nav {
 /* Custom CSS */
 
 header {
-  height: 70px;
+	align-items: center;
+	display: flex;
+  	height: 70px;
+	justify-content: space-between;
 }
 
 header h1 {
   font-size: 2.5rem;
 }
 
-.slider {
+.hero {
 	background-color: black;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -82,7 +85,7 @@ header h1 {
 	width: 100vw;
 }
 
-.slider-card {
+.hero-card {
 	align-items: center;
 	color: white;
 	display: flex;
@@ -93,24 +96,62 @@ header h1 {
 	padding: 20px;
 }
 
-.slider-card h1 {
+.hero-card h1 {
 	font-size: 3rem;
 }
 
-.slider button {
-	background-color: black;
-	border: 2px solid white;
+.hero button {
+	background-color: rgb(212, 132, 46);
 	border-radius: 2px;
 	color: white;
 	font-size: 2rem;
-	padding: 5px 10px;
+	padding: 7px 14px;
 }
 
-.slider .img-container {
+.hero .img-container {
 	grid-column: 2/4;
 	padding: 20px;
 }
 
-.slider-img {
+.hero-img {
 	width: 100%;
+}
+
+.about {
+	display: flex;
+	width: 100vw;
+}
+
+.about div {
+	padding: 20px;
+	width: 50%;
+}
+
+.about .img-container img {
+	width: 90%;
+}
+
+.info-card {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.info-card * {
+	margin: 1rem 0 1rem 0;
+}
+
+.info-card img {
+	border-radius: 50%;
+	width: 150px;
+}
+
+.info-card h1 {
+	font-size: 2.4rem;
+}
+
+.info-card p {
+	font-size: 1.4rem;
+	width: 70%;
 }

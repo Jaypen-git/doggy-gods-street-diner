@@ -1,6 +1,6 @@
 const HeroCard = () => {
     return (
-        <div className="slider-card">
+        <div className="hero-card">
             <h1>Taste the Talk of the Street</h1>
             <button>Order Now</button>
         </div>

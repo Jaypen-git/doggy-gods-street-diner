@@ -1,9 +1,11 @@
-import Slider from "./Slider";
+import About from "./About";
+import Hero from "./Hero";
 
 const Main = () => {
     return (
         <main>
-            <Slider />
+            <Hero />
+            <About />
         </main>
     );
 }
