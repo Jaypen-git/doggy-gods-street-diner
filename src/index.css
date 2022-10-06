@@ -66,46 +66,51 @@ nav {
 
 /* Custom CSS */
 
-.header-img {
-    height: 70px;
+header {
+  height: 70px;
+}
+
+header h1 {
+  font-size: 2.5rem;
 }
 
 .slider {
 	background-color: black;
-    display: grid;
-	align-items: center;
+	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	justify-content: center;
-	padding: 20px;
-    width: calc(100vw - 40px);
+	/* Make sure it never exceeds the viewport width */
+	width: 100vw;
 }
 
 .slider-card {
+	align-items: center;
 	color: white;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 50%;
+	display: flex;
+	flex-direction: column;
 	grid-column: 1/2;
+	justify-content: space-around;
+	/* let children have padding to not affect section's width */
+	padding: 20px;
 }
 
 .slider-card h1 {
 	font-size: 3rem;
-  width: 70%;
 }
 
-.slider-card button {
+.slider button {
 	background-color: black;
 	border: 2px solid white;
 	border-radius: 2px;
 	color: white;
-	font-size: 1.5rem;
+	font-size: 2rem;
 	padding: 5px 10px;
-  width: 30%;
+}
+
+.slider .img-container {
+	grid-column: 2/4;
+	padding: 20px;
 }
 
 .slider-img {
-	max-width: 100%;
-	grid-column: 2/4;
+	width: 100%;
 }
