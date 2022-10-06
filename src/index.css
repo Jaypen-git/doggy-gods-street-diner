@@ -67,7 +67,7 @@ nav {
 /* Custom CSS */
 
 html {
-	color: rgb(37, 37, 37);
+	color: rgb(51, 51, 51);
 }
 
 header {
@@ -114,7 +114,7 @@ nav p {
 
 .hero button {
 	background-color: rgb(212, 132, 46);
-	border-radius: 2px;
+	border-radius: 5px;
 	color: white;
 	font-size: 1.6rem;
 	padding: 10px 20px;
