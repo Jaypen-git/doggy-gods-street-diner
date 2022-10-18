@@ -2,14 +2,16 @@ import Section from "./menu/Section";
 import Data from "./Data";
 
 const Menu = () => {
-    console.log(Data);
+    const burgers = Data.burgers;
+    const chicken = Data.chicken;
+    const sides = Data.sides
 
     return (
         <div className="menu">
             <h1>Our Menu</h1>
-            <Section title={'Burgers'} />
-            <Section title={'Chicken'} />
-            <Section title={'Sides'}/>
+            <Section title={'Burgers'} items={burgers} />
+            <Section title={'Chicken'} items={chicken} />
+            <Section title={'Sides'} items={sides} />
         </div>
     );
 }

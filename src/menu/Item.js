@@ -1,8 +1,8 @@
-const Item = () => {
+const Item = ({name, desc}) => {
     return (
         <div className="menu-item">
-            <h3>Item</h3>
-            <p>Item Desc</p>
+            <h3>{name}</h3>
+            <p>{desc}</p>
         </div>
     );
 }
